@@ -1,5 +1,5 @@
 body {
-	align-content: center;
+	
 	font-family: cursive;
 	margin: 0px;
 }
@@ -7,5 +7,22 @@ h1 {
 	font-weight: lighter;
 }
 img {
-	align-content: center;
+	border: 2px gray solid;
+}
+h2 {
+font-family: 'Aref Ruqaa', serif;
+font-size: 60px;
+margin-top: -40px;
+margin-bottom: 1px;
+}
+.cont {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	flex-direction: column;
+
+
+
+
 }
