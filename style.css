@@ -1,28 +1,134 @@
 body {
 	
-	font-family: cursive;
+
+	margin: 0px;
+	background-color: #D3D3D3;
+
+
+font-family: 'Open Sans', sans-serif;
+
+
+}
+.container {
+	width: 750px;
+	background-color: white;
+	border-right: 10px solid #696969;
+	border-left: 10px solid #696969;
+
+}
+.header {
+
+border-bottom: 2px solid gray;
+padding: 20px;
+margin: 0px;
+
+
+
+}
+.header img {
+  width: 150px;
+ 
+display: inline-block;
+float: right;
+margin-top: 10px;
+
+}
+.header h1 {
+
+	display: inline-block;
+font-family: 'Indie Flower', cursive;
+color: #696969;
+font-size: 50px;
+font-weight: bolder;
+
+}
+.header nav {
+	float: right;
+
+display: block;
+font-family: 'Roboto Slab', serif;
+text-decoration: none;
+}
+.nav ul {
+	list-style-type: none;
+}
+
+.nav li { 
+display: inline-block;
+margin: 0 5px 0 5px;
+ }
+
+.nav li a { 
+text-decoration: none;
+color: gray;
+
+ }
+
+.nav li a:hover {
+	border-bottom: 2px solid #0691ce;
+	padding-bottom: 5px;
+}
+
+
+
+.main {
+	height: 100%;
+margin: 0px;
+padding: 0px;
+}
+ .main .p
+ {
+ 	margin: 10px;
+ }
+
+.banner {
+  color: white;
+  text-align: center;
+  height: 50vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */ 
+  background-size: cover !important;
+  background-position: bottom;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+.banner h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+}
+.banner p {
+  font-size: 20px;
+  font-weight: lighter;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 20px;
+}
+
+
+
+.footer {
+	height: 100px;
+	border-top: 2px solid gray;
 	margin: 0px;
 }
-h1 {
-	font-weight: lighter;
-}
-img {
-	border: 2px gray solid;
-}
-h2 {
-font-family: 'Aref Ruqaa', serif;
-font-size: 60px;
-margin-top: -40px;
-margin-bottom: 1px;
-}
-.cont {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 100vh;
-	flex-direction: column;
+.footer p {
+	display: inline-block;
+	margin-top: 60px;
+		font-family: 'Space Mono', monospace, serif;
+		color: #0691ce;
+		font-size: 12px;
 
-
-
+}
+.footer ul {
+	list-style-type: none;
+	float: right;
+	display: inline-block;
+		margin-top: 60px;
+}
+.footer li {
+	display: inline-block;
+	margin: 5px;
+	color: #0691ce;
 
 }
