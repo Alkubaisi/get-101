@@ -10,7 +10,7 @@ font-family: 'Roboto Slab', serif;
 
 }
 .container {
-	width: 882px;
+	max-width: 882px;
 	background-color: white;
 	border-right: 10px solid #FF895D;
 	border-left: 10px solid #FF895D;
@@ -70,7 +70,7 @@ text-decoration: none;
 
 .nav li { 
 display: inline-block;
-margin: 0 5px 0 5px;
+=
  }
 
 .nav li a { 
@@ -96,6 +96,11 @@ padding: 0px;
  {
  	margin: 10px;
  	font-family: 'Roboto Slab', serif;
+ }
+ .main .prog {
+margin-top: 20px;
+font-weight: lighter;
+
  }
 
 .banner {
