@@ -2,7 +2,7 @@ body {
 	
 
 	margin: 0px;
-	background-color: #05445f;
+	background-color: #fafafa;
 
 
 font-family: 'Roboto Slab', serif;
@@ -12,8 +12,7 @@ font-family: 'Roboto Slab', serif;
 .container {
 	max-width: 882px;
 	background-color: white;
-	border-right: 10px solid #FF895D;
-	border-left: 10px solid #FF895D;
+
 	background-color: #ffffff;
 
 }
@@ -54,7 +53,7 @@ font-weight: bolder;
 float: right;
 margin-right: 10px;
 margin-top: 0px;
-margin-left: 400px;
+margin-left: 450px;
 
 }
 .header nav {
@@ -123,7 +122,7 @@ font-weight: lighter;
 .banner p {
   font-size: 20px;
   font-weight: lighter;
-  color: rgba(255, 255, 255, 0.7);
+  color: #ffffff;
   margin-bottom: 20px;
 }
 
